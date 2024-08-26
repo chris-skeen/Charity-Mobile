@@ -9,9 +9,7 @@ body {
   background-image : url(images/real_music_notes.png);
   background-size: 100%;
   background-repeat:no-repeat;
-  background-color: #eff1f5
-
-
+  background-color: #eff1f5;
 }
 
 .main_header {
@@ -40,8 +38,8 @@ body {
   border : 10px solid;
   border-color: #4c4f69;
   float: left;
-  height: 40%;
-  width: 40%;
+  height: 60%;
+  width: 60%;
 
 }
 
@@ -50,15 +48,14 @@ body {
   border-color: #4c4f69;
   width: 32%;
   float: left;
-  height: 40%;
-  width: 40%;
+  height: 60%;
+  width: 60%;
 
 }
 
 .info1 {
   color : #7287fd;
   font-size: 28px;
-  margin-right: 90%;
 }
 
 .info2 {
@@ -100,4 +97,18 @@ body {
 .info_photo2_cell {
   display: flex;
   justify-content: center;
+}
+
+table, thead, tbody, th, td, tr {
+  display: block;
+}
+
+.info1 {
+  background-color: #eff1f5;
+  border: 3px outset #4c4f69;
+}
+
+.info2 {
+  background-color: #eff1f5;
+  border: 3px outset #4c4f69;
 }
