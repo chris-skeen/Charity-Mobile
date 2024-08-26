@@ -1,236 +1,93 @@
+/* Color Layout:
+Lavender : #7287fd 
+Text : #4c4f69
+Base : #eff1f5
+
+*/
+
 body {
-  background: rgb(0, 152, 238);
-  background-image: linear-gradient(
-    200deg,
-    rgb(9, 45, 65),
-    rgb(250, 124, 142)
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+  background-image : url(images/real_music_notes.png);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-color: #eff1f5
 
-.main-header-container {
-  display: flex;
-  justify-content: center;
-  color: rgb(115, 115, 214)
-}
-
-.mom-pic {
-  width: 20%;
-  height: 20%;
-  border: 10px ridge white;
-  border-radius: 45%;
-  border-color: rgb(240, 118, 118)
-}
-
-.my-mother {
-  position: relative;
-  left: 90px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 20pt;
-  color: rgb(240, 118, 118)
-}
-
-.mom-name {
-  position: relative;
-  left: 67px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20pt;
-  color: rgb(240, 118, 118)
-}
-
-.mom-summary-container {
-  position: relative;
-  bottom: 480px;
-  left: 320px;
-  width: 38%;
-}
-
-.mom-summary-header {
-  color: rgb(240, 118, 118)
 
 }
 
-.mom-summary {
-  color: rgb(115, 115, 214)
-
-}
-
-.mom-table-container {
-  position: relative;
-  left: 320px;
-  bottom: 489px;
-}
-
-.mom-table {
-  border: 5px inset rgb(115, 115, 214);
-  width: 38%;
-  background-color: rgb(240, 118, 118)
-}
-
-.mom-table-header {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20pt;
-  color: rgb(115, 115, 214);
-}
-
-.mom-vh-container {
-  position: relative;
-  left: 878px;
-  bottom: 905px;
-}
-
-.mom-vh {
-  color: rgb(240, 118, 118)
-}
-
-
-.mom-v-container {
-  position: relative;
-  left: 878px;
-  bottom: 850px;
-}
-
-/*DAD*/
-
-.my-father {
-  position: relative;
-  left: 1215px;
-  bottom: 650px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 20pt;
-  color: rgb(115, 115, 214)
-}
-
-.dad-pic {
-  width: 20%;
-  height: 20%;
-  border: 10px ridge rgb(115, 115, 214);
-  border-radius: 45%
-}
-
-.dad-pic-container {
-  position: relative;
-  left: 1118px;
-  bottom: 645px;
-}
-
-.dad-name {
-  color: rgb(115, 115, 214);
-  position: relative;
-  left: 1215px;
-  bottom: 645px;
-  font-size: 20pt;
-}
-
-.dad-table {
-  border: 5px inset rgb(240, 118, 118);
-  width: 38%;
-  background-color: rgb(115, 115, 214);
-}
-
-.dad-table-container {
-  position: relative;
-  bottom: 1140px;
-  left: 560px;
-}
-
-.dad-summary-header {
-  color:rgb(115, 115, 214);
-}
-
-.dad-summary {
-  color: rgb(240, 118, 118)
-}
-
-.dad-summary-container {
-  position: relative;
-  left: 561px;
-  bottom: 1128px;
-  width: 38%;
-}
-
-.dad-vh {
-  color: rgb(115, 115, 214);
-}
-
-.dad-vh-container {
-  position: relative;
-  left: 1px;
-  bottom: 1517px;
-}
-
-
-.dad-v-container {
-  position: relative;
-  left: 01px;
-  bottom: 1455px;
-}
-
-.dad-section-container {
-  position: relative;
-  top: 25px;
-}
-
-.contacts-container{
+.main_header {
+  color : #4c4f69;
   text-align: center;
-  color:white;
-  position: relative;
-  bottom: 1300px;
+
 }
 
-.contacts-header {
-  font-size: 30pt;
-  color: rgb(240, 118, 118)
+.summary {
+  color : #7287fd;
+  text-align : center;
 }
 
-.con-names {
-  align-self:flex-start;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: white;
+.top_left_logo {
+  width: 5%;
+  float : left;
 }
 
-.emails {
-  color: black;
-  position: relative;
-  bottom: 1325px;
-  display: flex;
-  justify-content: space-between;
+.top_right_logo {
+
+  width : 5%;
+  float: right;
 }
 
-.numbers {
-  color: black;
-  position:relative;
-  bottom: 1360px;
-  display: flex;
-  justify-content: space-between;
+.info_photo1 {
+  border : 10px solid;
+  border-color: #4c4f69;
+  float: left;
+  height: 350px;
+  width: 350px;
+
 }
 
-.mom-table-cells {
-  border: 3px inset rgb(115, 115, 214);
-  padding: 6px;
-  color: white
+.info_photo2 {
+  border : 10px solid;
+  border-color: #4c4f69;
+  width: 32%;
+  float: left;
+  height: 350px;
+  width: 350px;
+
 }
 
-.dad-table-header {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20pt;
-  color: rgb(240, 118, 118)
+.info1 {
+  color : #7287fd;
+  font-size: 28px;
+  margin-right: 90%;
 }
 
-.dad-table-cells {
-  border: 3px inset rgb(240, 118, 118);
-  padding: 6px;
-  color: white
+.info2 {
+  color : #7287fd;
+  font-size : 28px;
 }
 
-.mom-con-name-select {
-  color: rgb(240, 118, 118)
+.options{
+  text-align: center;
+  color:#4c4f69;
+  font-size : 20px
+}
+.btmbuttons_cell {
+
+  text-align: center;
+
 }
 
-.dad-con-name-select {
-  color: rgb(115, 115, 214)
+.btmbuttons {
+  border: 2px solid #7287fd;
+  background-color: #eff1f5;
+  color: #7287fd;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius : 20px;
+  font-size : 20px
+
+}
+
+.btmbuttons:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
