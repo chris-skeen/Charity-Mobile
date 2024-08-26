@@ -40,8 +40,8 @@ body {
   border : 10px solid;
   border-color: #4c4f69;
   float: left;
-  height: 350px;
-  width: 350px;
+  height: 40%;
+  width: 40%;
 
 }
 
@@ -50,8 +50,8 @@ body {
   border-color: #4c4f69;
   width: 32%;
   float: left;
-  height: 350px;
-  width: 350px;
+  height: 40%;
+  width: 40%;
 
 }
 
@@ -90,4 +90,14 @@ body {
 .btmbuttons:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
+}
+
+.info_photo1_cell {
+  display: flex;
+  justify-content: center;
+}
+
+.info_photo2_cell {
+  display: flex;
+  justify-content: center;
 }
