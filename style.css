@@ -5,7 +5,7 @@ Base : #eff1f5
 
 */
 
-body {
+.body {
   background-image : url(images/real_music_notes.png);
   background-size: 100%;
   background-repeat:no-repeat;
@@ -97,10 +97,6 @@ body {
 .info_photo2_cell {
   display: flex;
   justify-content: center;
-}
-
-table, thead, tbody, th, td, tr {
-  display: block;
 }
 
 .info1 {
